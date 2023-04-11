@@ -1,0 +1,101 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow:hidden;
+
+background:url('./gym3.jpg');
+background-repeat:no-repeat;
+background-size:2000px;
+font-family:italics ;
+
+}
+
+.left{
+
+    position: absolute;
+    top:12px;
+    left:34px;
+  }
+  .left img{
+    width:80px;
+    height:80px;
+    filter:invert(100%);
+  }
+  
+  .mid{
+    margin:0 auto;
+    display:block;
+    width:25%;
+     
+  }
+  .right{
+  
+  position:absolute;
+  top:12px;
+  right:34px;
+    display:inline-block;
+  
+  float:right;
+  }
+  .project{
+    color:white;
+  }
+  .navbar li{
+    display:inline-block;
+    text-decoration:none;
+
+  }
+  .navbar li a{
+    color:white;
+    text-decoration:none;
+    padding: 10px;
+    font-weight: bold;
+
+    
+  }
+  .navbar li a:hover{
+    text-decoration: underline;
+    color:grey;
+  }
+  .btn{
+    background-color: white;
+    color:black;
+    border-radius: 12px;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 10px;
+    
+  }
+  .btn:hover{
+  background-color:grey;
+  }
+  .container{
+  
+    margin:106px 80px;
+    padding: 80px;
+    width:30%;
+    border-radius: 20px;
+    color:white;
+  
+  }
+  .formgroup input{
+    text-align: center;
+    display: block;
+    width: 380px;
+    padding: 1px;
+    border:2px solid white;
+    margin:13px auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+  }
+  .container h2{
+  margin-top: 55px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .formgroup button{
+  margin: 20px auto;
+    width:80px;
+  }
